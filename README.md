@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## How to install this image gallery editor
 
-git clone this repo<br/>
+git clone https://github.com/LindsayKB/homer-carousel<br/>
 npm install react-elastic-carousel<br/>
 npm install react-dom<br/>
 npm install react-bootstrap<br/>
