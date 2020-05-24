@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Galindo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+h1 {
+	font-family: 'Galindo', cursive;
+}
+h2, h3, h4, h5, h6, p, span {
+	font-family: 'Nunito', sans-serif;
+}
+button {
+	font-family: 'Nunito', sans-serif;
+	font-weight:bold;
+}
+body {
+	background-color: #37b6f6 !important;
+}
+button {
+	outline:none !important;
+}
+.page-title h1 {
+	color: #35D461;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px 50px;
+    margin: 0.5em 0em;
+}
+.instructions {
+	background-color:#ffffff;
+	border-radius:10px;
+}
+.instructions p {
+	margin:1em 0em;
+}
+.image-container-parent {
+	margin:1em 0em;
+}
+.image-container {
+	width:100%;
+	max-width:100px;
+	padding:5px;
+	margin:5px;
+	background-color: #ffffff;
+    border-radius: 10px;
+	display: flex;
+    flex-direction: column;
+}
+.image-container img {
+	width:100%;
+	max-width:100px;
+	height:auto;
+    cursor:pointer;
+}
+.image-caption {
+	justify-content:center;
+	align-items:center;
+	display: flex;
+	justify-content: center;
+    flex-direction: column;
+    align-items: center;
+	flex-grow: 1;
+}
+.image-caption p {
+	margin:0em;
+	font-weight:bold;
+	font-size:12px;
+    font-family: 'Galindo', cursive;
+}
+.in-slider {
+	display:none !important;
+}
+.no-border,
+.blue-border,
+.red-border {
+	border-width:3px;
+	border-style:solid;
+	border-radius:10px;
+}
+.no-border {
+	border-color:#ffffff;
+	transition:0.3s;
+}
+.blue-border {
+	border-color:blue !important;
+}
+.red-border {
+	border-color:red;
+}
+.in-slider {
+	display:none;
+}
+.add-btn {
+	padding:10px 30px;
+	background: #F99D07;
+	color:#ffffff;
+	border-radius:20px;
+	font-size:30px;
+	margin-bottom:10px;
+	opacity:1;
+	border:5px solid #ffffff;
+	display: block;
+    margin: 10px auto 10px;
+	cursor:pointer;
+	transition:0.5s;
+}
+.disabled {
+	opacity:0.4 !important;
+	cursor:not-allowed !important;
+}
+.image-slider {
+	display:block;
+	margin:0 auto;
+}
+.number-of-items {
+	width:100%;
+	max-width:100px;
+	margin-left:20px;
+	margin-top:5px;
+}
+.image-gallery-container {
+	opacity:100;
+	transition:opacity 0.3s ease 0.15s;
+}
+.image-gallery-options,
+.image-gallery {
+    padding: 1em;
+    border-radius: 10px;
+	background:#ffffff;
+}
+.image-gallery-options .btn-info,
+.image-gallery-options .btn-dark {
+	opacity:0.2;
+}
+.image-gallery-options .btn {
+	margin:0px 5px;
+}
+.hidden {
+	display:none !important;
+}
+/*For special effects*/
+.noOpacity {
+	opacity:0 !important;
+}
+.btn-danger {
+	transition:0.3s;
+}
+.active-btn {
+	opacity:1 !important;
+}
+.image-gallery {
+	margin:30px 0px;
+}
+.image-gallery .slide {
+	margin:0px 10px;
+	position: relative;
+}
+.image-gallery img {
+	display:inline-block;
+	width:100%;
+}
+.image-gallery-caption {
+	display:block;
+	opacity:0;
+	position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background: rgba(256, 256, 256, 0.8);
+    font-size: 20px;
+    padding: 10px;
+	transition: opacity .3s ease;
+}
+.image-gallery-caption p {
+	margin-bottom:0px;
+    font-family: 'Galindo', cursive;
+}
+.rec-carousel-wrapper img {
+	cursor:pointer;
+}
+.image-viewer {
+	width:100%;
+	max-width:500px;
+	height:auto;
+	opacity:100;
+	transition:opacity 0.3s ease;
+}
+.image-viewer-caption {
+	font-size: 30px;
+	width: fit-content;
+    margin: 0.5em auto;
+    display: block;
+    background: #ffffff;
+    padding: 5px 20px;
+    border-radius: 10px;
+	font-family: 'Galindo', cursive;
+}
+.image-viewer img {
+	border:10px solid #ffffff;
+	border-radius:10px;
+}
